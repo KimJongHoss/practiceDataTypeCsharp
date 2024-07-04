@@ -28,13 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.jongho_box = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // jongho_box
+            // 
+            this.jongho_box.Location = new System.Drawing.Point(12, 12);
+            this.jongho_box.Multiline = true;
+            this.jongho_box.Name = "jongho_box";
+            this.jongho_box.Size = new System.Drawing.Size(776, 426);
+            this.jongho_box.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.jongho_box);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox jongho_box;
     }
 }
 
