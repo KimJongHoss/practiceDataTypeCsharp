@@ -25,6 +25,8 @@ namespace practiceDataType
             name = 400.ToString();
 
 
+            num = int.Parse(name);
+            num = int.Parse("200");
         }
     }
 }
